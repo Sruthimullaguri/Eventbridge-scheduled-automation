@@ -1,8 +1,8 @@
 # EventBridge Scheduled Automation
-Task:
-Create scheduled tasks that perform AWS resource management.
-What to Do:
-●    Create an EventBridge rule that runs every 5 minutes
+## Task:
+Create scheduled tasks that perform AWS resource management
+## What to Do:
+●    Create EventBridge rule that runs every 5 minutes
 ●    Lambda function does:
 ●    Find all EC2 instances with the tag "Environment: Dev."
 ●    Check current time
@@ -19,7 +19,7 @@ What to Do:
 ●    Finds security groups with 0.0.0.0/0 on port 22
 ●    Sends alert to SNS
 ●    Test by manually triggering rules
-Success Criteria:
+## Success Criteria:
 ●    Scheduled rules execute on time
 ●    EC2 instances stop/start correctly
 ●    Reports are sent via SNS
